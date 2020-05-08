@@ -9,7 +9,7 @@ eureka:
     fetch-registry: false
 　　 #注册中心地址
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka/
   server:
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 5000 #续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms），测试环境修改小点spring.security.user.roles=USER
