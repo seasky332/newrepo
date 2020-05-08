@@ -14,4 +14,9 @@ eureka:
       defaultZone: http://admin:admin@eureka-server1:9001/eureka
   server:
     enableSelfPreservation: false #关闭自我保护模式（缺省为打开）
-    eviction-interval-timer-in-ms: 5000 #续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms），测试环境修改小点
+    eviction-interval-timer-in-ms: 5000 #续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms），测试环境修改小点spring.security.user.roles=USER
+spring:
+  security:
+       user:
+         name: admin
+         password: admin
