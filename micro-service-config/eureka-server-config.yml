@@ -18,5 +18,6 @@ eureka:
 spring:
   security:
        user:
+         roles: USER
          name: admin
          password: admin
