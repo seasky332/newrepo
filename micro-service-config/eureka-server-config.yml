@@ -3,14 +3,15 @@ server:
 eureka:
   instance:
     hostname: eureka-server1
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 10000
   client:
     register-with-eureka: false
     fetch-registry: false 
     service-url:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
-  server:
-    enable-self-preservation: false
-    eviction-interval-timer-in-ms: 5000 #续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms），测试环境修改小点spring.security.user.roles=USER
+  
 spring:
   security:
        user:
