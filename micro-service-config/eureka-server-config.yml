@@ -5,8 +5,7 @@ eureka:
     hostname: eureka-server1
   client:
     register-with-eureka: false
-    fetch-registry: false
-　　 #注册中心地址
+    fetch-registry: false 
     service-url:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
   server:
