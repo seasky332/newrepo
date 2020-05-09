@@ -1,1 +1,14 @@
-
+spring:
+  profiles:
+      active: test
+      
+      
+eureka:
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 10000
+  client:
+    register-with-eureka: false
+    fetch-registry: false 
+    service-url:
+      defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
