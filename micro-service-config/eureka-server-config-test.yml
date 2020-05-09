@@ -6,3 +6,7 @@ spring:
          password: admin
 server:
    port: 9001
+   
+eureka:
+   instance:
+      hostname: eureka-server1
