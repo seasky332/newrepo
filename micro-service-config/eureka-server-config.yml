@@ -9,4 +9,4 @@ eureka:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
 spring:
   profiles:
-    active: test
+      active: test
