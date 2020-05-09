@@ -1,8 +1,3 @@
-spring:
-  profiles:
-      active: test
-      
-      
 eureka:
   server:
     enable-self-preservation: true
@@ -12,3 +7,9 @@ eureka:
     fetch-registry: false 
     service-url:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
+      
+spring:
+  profiles:
+      active: test
+      
+     
