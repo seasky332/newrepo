@@ -4,5 +4,3 @@ spring:
            roles: user
            name: admin
            password: admin
-server:
-    port: 9001
