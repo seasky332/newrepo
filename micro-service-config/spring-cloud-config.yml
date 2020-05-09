@@ -12,8 +12,7 @@ spring:
   profiles:
       active: test
       
-test:
-  user:
-    age: 33
+user:
+   age: 33
       
      
