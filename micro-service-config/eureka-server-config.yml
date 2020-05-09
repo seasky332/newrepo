@@ -1,11 +1,11 @@
 eureka:
   server:
-    enable-self-preservation: true
-    eviction-interval-timer-in-ms: 10000
+    enableSelfPreservation: true
+    evictionIntervalTimerInMs: 10000
   client:
-    register-with-eureka: false
-    fetch-registry: false 
-    service-url:
+    registerWithEureka: false
+    fetchRegistry: false 
+    serviceUrl:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
 spring:
   profiles:
