@@ -5,7 +5,7 @@ eureka:
   client:
     register-with-eureka: false 
     fetch-registry: false
-    service-url:
+    serviceUrl:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
 
 spring:
