@@ -7,10 +7,22 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
-
+  instance:
+    hostname: eureka-server1
 spring:
   profiles:
       active: test
   application:
     name: eureka-server1
+  security:
+    user:
+      roles: user
+      name: admin
+      password: admin
+      
+server:
+    port: 9001
+          
+user:
+   age: 36
 
