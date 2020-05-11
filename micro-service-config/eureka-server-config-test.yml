@@ -1,0 +1,13 @@
+  spring:
+   security:
+         user:
+           roles: user
+           name: admin
+           password: admin
+           
+   server:
+      port: 9001
+     
+     eureka:
+        instance:
+           hostname: eureka-server1
