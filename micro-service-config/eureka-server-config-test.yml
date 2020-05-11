@@ -11,3 +11,6 @@ server:
 eureka:
   instance:
     hostname: eureka-server1
+              
+user:
+   age: 36
