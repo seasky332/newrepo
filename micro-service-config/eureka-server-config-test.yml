@@ -7,7 +7,6 @@ spring:
            
 server:
     port: 9001
-    contextPath: /test
      
 eureka:
   instance:
