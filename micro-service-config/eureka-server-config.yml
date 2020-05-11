@@ -3,8 +3,8 @@ eureka:
     enable-self-preservation: false
     evictionIntervalTimerInMs: 3000  
   client:
-    register-with-eureka: false 
-    fetch-registry: false
+    registerWithEureka: false 
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
 
