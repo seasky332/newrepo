@@ -10,7 +10,7 @@ server:
      
 eureka:
   instance:
-    hostname: eurekaserver
+    hostname: eureka-server1
               
 user:
    age: 36
