@@ -24,7 +24,7 @@ spring:
           password: admin
       
 server:
-    port: 9001
+    port: 9999
           
 user:
    age: 36
