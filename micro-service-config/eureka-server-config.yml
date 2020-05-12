@@ -14,7 +14,7 @@ eureka:
   instance:
     hostname: eureka-server1
     preferIpAddress: true
-#spring:
+spring:
 #  application:
 #    name: eureka-server1
   security:
