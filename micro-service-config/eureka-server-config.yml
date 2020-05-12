@@ -28,3 +28,7 @@ server:
           
 user:
    age: 36
+   config: 
+      name:  aa
+      password: aaa
+      description: aaaa
