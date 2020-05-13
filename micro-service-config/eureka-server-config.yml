@@ -18,8 +18,8 @@ spring:
   profiles:
       active: test
       
-      user:
-        config:
-           name: fuck
-           password: fuck
-           description: fuck
+user:
+  config:
+     name: fuck
+     password: fuck
+     description: fuck
