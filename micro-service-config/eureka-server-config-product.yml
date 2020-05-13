@@ -1,0 +1,17 @@
+  
+spring:
+  security:
+         user:
+           roles: user
+           name: admin
+           password: admin
+           
+server:
+    port: 9002
+     
+eureka:
+  instance:
+    hostname: eureka-server2
+              
+user:
+   age: 36
