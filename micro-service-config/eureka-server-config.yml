@@ -20,6 +20,6 @@ spring:
       
 user:
   config:
-     name: fuck3
-     password: fuck3
-     description: fuck3
+     name: fuck4
+     password: fuck4
+     description: fuck4
