@@ -8,7 +8,18 @@ eureka:
     fetch-registry: false 
     service-url:
       defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 spring:
   profiles:
       active: test
+      
+      user:
+        config:
+           name: fuck
+           password: fuck
+           description: fuck
