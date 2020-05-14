@@ -3,3 +3,9 @@ server:
    port: 7100
    application:
      name: micro-service-producer
+     
+user:
+  config:
+     name: fuck5
+     password: fuck5
+     description: fuck5
