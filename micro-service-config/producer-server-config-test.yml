@@ -1,0 +1,5 @@
+
+server:
+   port: 100
+   application:
+     name: micro-service-producer
