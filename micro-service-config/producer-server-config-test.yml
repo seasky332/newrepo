@@ -1,5 +1,5 @@
 
 server:
-   port: 100
+   port: 7100
    application:
      name: micro-service-producer
