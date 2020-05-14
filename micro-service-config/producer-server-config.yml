@@ -1,0 +1,20 @@
+server:
+   port: 100
+   application:
+     name: micro-service-producer
+
+eureka:
+  client:
+    register-with-eureka: true
+    service-url.defaultZone: http://admin:admin@eureka-server2:9002/eureka
+
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+
+info: 
+  app: 
+    name: micro-service-producer
+    author: seasky
