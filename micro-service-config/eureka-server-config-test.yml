@@ -13,4 +13,4 @@ eureka:
     hostname: eureka-server1
               
 user:
-   age: 38
+   age: 40
