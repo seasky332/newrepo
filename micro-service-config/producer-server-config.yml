@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     register-with-eureka: true
-    service-url.defaultZone: http://admin:admin@eureka-server2:9002/eureka
+    service-url.defaultZone: http://admin:admin@eureka-server1:9001/eureka
 
   instance:
     instance-id: ${spring.application.name}:${server.port}
