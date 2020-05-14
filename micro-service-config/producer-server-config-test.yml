@@ -1,5 +1,6 @@
 server:
    port: 7100
+spring:
    application:
      name: micro-service-producer
      
